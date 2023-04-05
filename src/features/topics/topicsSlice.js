@@ -24,7 +24,7 @@ export const topicsSlice = createSlice({
     }
 })
 
-export const selectTopics = state => state.topics;
+export const selectTopics = state => state.topics.topics;
 
 export const { addTopic, addQuizId } = topicsSlice.actions;
 export default topicsSlice.reducer;
