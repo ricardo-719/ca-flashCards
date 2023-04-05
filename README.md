@@ -1,15 +1,7 @@
-# Flashcards BoilerPlate
+# Flashcards
 
-To install just run `npm install`, the package is up to date with react router dom v6 and the files correctly adapted up to October 2022.
+In this project, I use Redux and Redux Toolkit to manage the complex state of a flashcard-style quiz app. 
 
-Start the local server with `npm start`
+Users are able to create their own topics, quizzes for those topics, and flashcards for those quizzes. Users are also able to interact with their quizzes by flipping flashcards over.
 
-To get the current updated version of all packages up to the date you will be using this project run the command below
-
-```
-npm i -g npm-check-updates
-ncu -u
-npm install
-```
-
-If there is any issues with dependencies run `npm install --force` Don't worry too much about vulnerabilities, npm is buggy that way and also this is a sample project and you won't be using it for more than a portfolio showing.
+This project is part of Codecademy's project assignment for the Full Stack developer course.
